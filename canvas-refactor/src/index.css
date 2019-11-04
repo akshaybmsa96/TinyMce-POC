@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+div.tox-statusbar{
+  display: none!important
+}
+div.tox-notifications-container{
+  display: none!important;
+}
+div.tiny-mce-editor-area{
+  outline: none;
+  margin: 50px;
+}
+div.header-section{
+  height: 80px;
+  background : white;
+}
+div.tox-tinymce{
+  border: none;
+}
+div.tox-toolbar__group{
+  border: 0.5px solid black;
+}
+.tox:not([dir=rtl]) .tox-toolbar__group {
+  border: 0.5px solid #e0e0e0;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.tox .tox-toolbar{
+  background: white!important;
+}
+
+div#tinymceToolbar{
+  margin: 0 auto;
+    position: relative;
+    width: 60%;
+}
+
+div.artboard{
+  margin: 0 auto;
+  width: 60%;
+  position: relative;
+  background: white;
+  height: -webkit-fill-available;
+  padding-top: 1px;
+  margin-top: 11px;
+  border: 0.5px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+div.rootComponent{
+  background: #e0e0e0;
+  height: 100%;
+}
+
+div.tinymce-wrapper{
+  border-top: 0.5px solid #e0e0e0;
+  border-bottom: 0.5px solid #e0e0e0;
+  height: 45px;
+}
+
+.tox-tinymce-inline .tox-editor-header {
+  border: none;
+}
+
+.tox .tox-toolbar__primary {
+  background: white;
+}
+div.element-separator{
+  user-select: none;
+}
