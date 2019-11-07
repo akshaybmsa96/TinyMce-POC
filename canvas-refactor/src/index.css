@@ -15,6 +15,12 @@ div.tiny-mce-editor-area{
   outline: none;
   margin: 50px;
 }
+div.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
 div.header-section{
   height: 80px;
   background : white;
@@ -44,18 +50,19 @@ div#tinymceToolbar{
 div.artboard{
   margin: 0 auto;
   width: 60%;
-  position: relative;
   background: white;
-  height: -webkit-fill-available;
+  height: 100%;
   padding-top: 1px;
   margin-top: 11px;
   border: 0.5px solid #e0e0e0;
   border-radius: 5px;
+  min-height: 100vh;
 }
 
-div.rootComponent{
+div#app_container{
   background: #e0e0e0;
   height: 100%;
+  padding-top: 100px;
 }
 
 div.tinymce-wrapper{
@@ -73,4 +80,41 @@ div.tinymce-wrapper{
 }
 div.element-separator{
   user-select: none;
+  height: 20px;
+  opacity: 0;
+}
+
+div input.addElement{
+  float: right;
+}
+div.element-separator:hover{
+  opacity: 1;
+}
+
+div.add-media__indicator{
+    height: 0.5px;
+    border: 1px dotted #aaaaaa;
+    position: relative;
+    float: left;
+    width: 96%;
+    margin-top: 8px;
+}
+div.figurecontent {
+  padding: 0px;
+}
+
+div.container-image img{
+  cursor: copy;
+}
+div.figurecontent input{
+  width: 98%;
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+div.figurecontent select{
+  width: 100%;
+  padding: 5px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }

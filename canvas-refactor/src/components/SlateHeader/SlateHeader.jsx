@@ -11,7 +11,7 @@ class SlateHeader extends Component {
         return (
             <React.Fragment>
                 <div className="header-section">
-                    <div className="header">HEADER SECTION</div>
+                    <div className="header-title">HEADER SECTION</div>
                     <div className="tinymce-wrapper"><div id="tinymceToolbar"></div></div>
                 </div>
             </React.Fragment>

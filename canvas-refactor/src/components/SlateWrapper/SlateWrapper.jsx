@@ -61,7 +61,7 @@ class SlateWrapper extends Component {
     render() {
         return (
             <React.Fragment>
-                <div>
+                <div className="content-container">
                     <TinyMceEditor
                         passedFunction={() => { console.log("hello") }}
                         initialValue={ReactDOMServer.renderToString(<ElementWrapper slateLevelData={this.state.content} />)}

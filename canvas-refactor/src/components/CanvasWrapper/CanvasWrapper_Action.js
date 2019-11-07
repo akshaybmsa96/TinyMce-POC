@@ -62,13 +62,102 @@ const slate_data = {
 						"text": " Hello Hi how are you 2."
 					},
 					"html": {
-						"text": "<input placeholder='enter text' class=\"paragraphNumeroUno\"></input>"
+						"text": "<p class=\"paragraphNumeroUno\">Hello Hi how are you 2</p>"
 					},
 					"comments": true,
 					"tcm": true,
 					"versionUrn": "urn:pearson:work:8a49e877-144a-4750-92d2-81d5188d8e0a",
 					"contentUrn": "urn:pearson:entity:b70a5dbe-cc3b-456d-87fc-e369ac59c527"
-				},
+				},  //new data
+				{
+                    "id": "urn:pearson:work:3199ab3c-0917-49bf-9856-e92914b75fb7",
+                    "type": "figure",
+                    "subtype": "image25Text",
+                    "schema": "http://schemas.pearson.com/wip-authoring/figure/1",
+                    "alignment": "quarter-text",
+                    "versionUrn": "urn:pearson:work:3199ab3c-0917-49bf-9856-e92914b75fb7",
+                    "contentUrn": "urn:pearson:entity:9f379a5a-97d0-46b0-8232-a9f61e3bb948",
+                    "title": {
+                        "schema": "http://schemas.pearson.com/wip-authoring/authoredtext/1#/definitions/authoredtext",
+                        "text": "",
+                        "textsemantics": [],
+                        "mathml": []
+                    },
+                    "captions": {
+                        "schema": "http://schemas.pearson.com/wip-authoring/authoredtext/1#/definitions/authoredtext",
+                        "text": "",
+                        "textsemantics": [],
+                        "mathml": [],
+                        "footnotes": []
+                    },
+                    "credits": {
+                        "schema": "http://schemas.pearson.com/wip-authoring/authoredtext/1#/definitions/authoredtext",
+                        "text": ""
+                    },
+                    "figuretype": "image",
+                    "subtitle": {
+                        "schema": "http://schemas.pearson.com/wip-authoring/authoredtext/1#/definitions/authoredtext",
+                        "text": "",
+                        "textsemantics": [],
+                        "mathml": [],
+                        "footnotes": []
+                    },
+                    "figuredata": {
+                        "path": "https://cite-media-stg.pearson.com/legacy_paths/796ae729-d5af-49b5-8c99-437d41cd2ef7/FPO-image.png",
+                        "height": "422",
+                        "width": "680",
+                        "schema": "http://schemas.pearson.com/wip-authoring/image/1#/definitions/image",
+                        "numbered": false,
+                        "startNumber": 0
+                    },
+                    "html": {
+                        "title": "<p></p>",
+                        "subtitle": "<p></p>",
+                        "caption": "<p></p>",
+                        "credit": "<p></p>",
+                        "text": "",
+                        "postertext": "",
+                        "tableasHTML": ""
+                    },
+                    "footnotes": {},
+                    "glossaryentries": {},
+                    "assetspopover": {},
+                    "tcm": false,
+                    "comments": false,
+                    "status": "wip",
+                    "feedback": false
+                },
+                {
+                    "id": "urn:pearson:work:7ee0da07-8099-4844-8171-e0148989ecfa",
+                    "type": "element-authoredtext",
+                    "subtype": "",
+                    "schema": "http://schemas.pearson.com/wip-authoring/element/1",
+                    "elementdata": {
+                        "schema": "http://schemas.pearson.com/wip-authoring/authoredtext/1#/definitions/authoredtext",
+                        "text": "Heading Element",
+                        "headers": [
+                            {
+                                "charStart": 0,
+                                "charEnd": 5,
+                                "level": 1
+                            }
+                        ]
+                    },
+                    "versionUrn": "urn:pearson:work:7ee0da07-8099-4844-8171-e0148989ecfa",
+                    "contentUrn": "urn:pearson:entity:e2bb6aa4-2d1e-494a-8399-1f0ef72da160",
+                    "html": {
+                        "text": "<h1 class=\"heading1NummerEins\">Heading Element</h1>",
+                        "footnotes": {},
+                        "glossaryentries": {}
+                    },
+                    "footnotes": {},
+                    "glossaryentries": {},
+                    "assetspopover": {},
+                    "tcm": false,
+                    "comments": false,
+                    "status": "wip",
+                    "feedback": false
+                },
 				// {
 				// 	"id": "urn:pearson:work:8a49e877-144a-4750-92d2-81d5188d8e03",
 				// 	"type": "element-authoredtext",
